@@ -68,3 +68,23 @@ for tanc in tancok:
 
 if szamlalo == 0:
     print(f"Vilma nem táncolt {bekert_tanc}-t.")
+
+print("\n6.Feladat")
+"""
+Ennél a feladatnál halmazba fogom tölteni az adatokat, hogy a duplikációt elkerüljem.
+A join metódus segítségével fogom megvalósítani az elemek közötti vesszőket.
+"""
+#6. Készítsen listát a bemutatón részt vett fiúkról és lányokról! A listát a szereplok.txt
+#nevű szöveges állományba mentse el a következő formátumban: a neveket vesszők
+#válasszák el egymástól, de az utolsó név után már ne szerepeljen írásjel. P
+
+with open("szereplok.txt", 'w', encoding='utf-8') as szereplok:
+    fiuk = set()
+    lanyok = set()
+    for tanc in tancok:
+        fiuk.add(tanc['fiu'])
+        lanyok.add(tanc['lany'])
+    elvalaszto_karakter = ", "
+
+    print("Fiúk: ", elvalaszto_karakter.join(fiuk), file=szereplok)
+    print("Lányok: ", elvalaszto_karakter.join(lanyok), file=szereplok)
