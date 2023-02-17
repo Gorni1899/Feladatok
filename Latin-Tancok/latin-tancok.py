@@ -96,3 +96,39 @@ print("\n7.Feladat")
 # Írja ki a képernyőre, hogy melyik fiú szerepelt a legtöbbször a fiúk közül, és melyik lány
 # a lányok közül! Ha több fiú, vagy több lány is megfelel a feltételeknek, akkor valamennyi
 # fiú, illetve valamennyi lány nevét írja ki!
+fiuk = {}
+lanyok = {}
+
+for tanc in tancok:
+    if tanc['fiu'] not in fiuk:
+        fiuk[tanc['fiu']] = 1
+    else:
+        fiuk[tanc['fiu']] += 1
+
+    if tanc['lany'] not in lanyok:
+        lanyok[tanc['lany']] = 1
+    else:
+        lanyok[tanc['lany']] += 1
+# Az első fázisunkkal megvagyunk.
+print(fiuk)
+print(lanyok)
+
+# Itt algoritmus max érték keresést fogunk alkalmazni.
+max_fiu = 0
+for x in fiuk:
+    if fiuk[x] > max_fiu:
+        max_fiu = fiuk[x]
+
+for y in fiuk:
+    if fiuk[y] == max_fiu:
+        print(y)
+
+max_lanyok = 0
+
+for lany in lanyok:
+    if lanyok[lany] > max_lanyok:
+        max_lanyok = lanyok[lany]
+
+for lany in lanyok:
+    if lanyok[lany] == max_lanyok:
+        print(lany)

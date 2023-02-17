@@ -1,2 +1,2 @@
-Fiúk:  Kolos, Tivadar, Igor, Lajos, Alfonz, Imre, Ede, Bertalan, Kelemen, Salamon, Attila, Marcell
-Lányok:  Katalin, Adrienn, Elza, Irma, Szabina, Luca, Judit, Emma, Gabriella, Fruzsina, Szilvia, Vilma
+Fiúk:  Attila, Kelemen, Kolos, Bertalan, Ede, Igor, Salamon, Lajos, Tivadar, Marcell, Alfonz, Imre
+Lányok:  Judit, Fruzsina, Emma, Luca, Szilvia, Irma, Szabina, Gabriella, Adrienn, Vilma, Elza, Katalin
