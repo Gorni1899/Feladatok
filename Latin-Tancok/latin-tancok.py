@@ -88,3 +88,11 @@ with open("szereplok.txt", 'w', encoding='utf-8') as szereplok:
 
     print("Fiúk: ", elvalaszto_karakter.join(fiuk), file=szereplok)
     print("Lányok: ", elvalaszto_karakter.join(lanyok), file=szereplok)
+
+print("\n7.Feladat")
+"""
+
+"""
+# Írja ki a képernyőre, hogy melyik fiú szerepelt a legtöbbször a fiúk közül, és melyik lány
+# a lányok közül! Ha több fiú, vagy több lány is megfelel a feltételeknek, akkor valamennyi
+# fiú, illetve valamennyi lány nevét írja ki!
