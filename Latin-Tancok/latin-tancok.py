@@ -91,6 +91,10 @@ with open("szereplok.txt", 'w', encoding='utf-8') as szereplok:
 
 print("\n7.Feladat")
 """
+Szótárt hozunk létre aminek az elemei a meglévő listánknak a fiú és lány elemei amiket beletöltünk.
+Amennyiben nem szerepel még az adott név a feltöltendő szótárunkba akkor 1 értéket adunk neki.
+Amennyiben már szerepel benne akkor a hozzárendelt értéket 1-el növeljük.
+Majd futtatunk egy max kereső algoritmust és megkapjuk a legtöbbet szerepelt, lányt és fiút.
 
 """
 # Írja ki a képernyőre, hogy melyik fiú szerepelt a legtöbbször a fiúk közül, és melyik lány
