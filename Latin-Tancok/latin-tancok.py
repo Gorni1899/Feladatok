@@ -39,3 +39,32 @@ for tanc in tancok:
     if tanc["nev"] == "samba":
         szamlalo += 1
 print("A szambát "+str(szamlalo)+" pár mutatta be.")
+
+print("\n4.Feladat")
+"""
+
+"""
+# 4. Írassa ki a képernyőre, hogy Vilma mely táncokban szerepelt!
+print("Vilma az alábbi táncokban szerepelt: ")
+for tanc in tancok:
+    if tanc['lany'] == "Vilma":
+        print(tanc['nev'])
+
+print("\n5.Feladat")
+"""
+
+"""
+# Kérje be egy tánc nevét, majd írassa ki a képernyőre, hogy az adott táncot Vilma kivel
+# mutatta be! Például ha a bekért tánc a samba, és Vilma párja Bertalan volt, akkor
+# „A samba bemutatóján Vilma párja Bertalan volt.” szöveg jelenjen meg!
+# Ha Vilma az adott tánc bemutatóján nem szerepelt, akkor azt írja ki a képernyőre, hogy
+# „Vilma nem táncolt samba-t.”.
+bekert_tanc = input("Adja meg a tánc nevét: ")
+szamlalo = 0
+for tanc in tancok:
+    if tanc['nev'] == bekert_tanc and tanc['lany'] == "Vilma":
+        print(f'A {bekert_tanc} bemutatóján Vilma párja {tanc["fiu"]} volt.')
+        szamlalo += 1
+
+if szamlalo == 0:
+    print(f"Vilma nem táncolt {bekert_tanc}-t.")
