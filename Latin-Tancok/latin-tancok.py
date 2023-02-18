@@ -51,9 +51,7 @@ for tanc in tancok:
         print(tanc['nev'])
 
 print("\n5.Feladat")
-"""
 
-"""
 # Kérje be egy tánc nevét, majd írassa ki a képernyőre, hogy az adott táncot Vilma kivel
 # mutatta be! Például ha a bekért tánc a samba, és Vilma párja Bertalan volt, akkor
 # „A samba bemutatóján Vilma párja Bertalan volt.” szöveg jelenjen meg!
