@@ -99,7 +99,7 @@ Majd futtatunk egy max kereső algoritmust és megkapjuk a legtöbbet szerepelt,
 """
 # Írja ki a képernyőre, hogy melyik fiú szerepelt a legtöbbször a fiúk közül, és melyik lány
 # a lányok közül! Ha több fiú, vagy több lány is megfelel a feltételeknek, akkor valamennyi
-# fiú, illetve valamennyi lány nevét írja ki!
+# fiú, illetve valamennyi lány nevét írja ki.
 fiuk = {}
 lanyok = {}
 
