@@ -114,8 +114,6 @@ for tanc in tancok:
     else:
         lanyok[tanc['lany']] += 1
 # Az első fázisunkkal megvagyunk.
-print(fiuk)
-print(lanyok)
 
 # Itt algoritmus max érték keresést fogunk alkalmazni.
 max_fiu = 0
@@ -123,6 +121,7 @@ for x in fiuk:
     if fiuk[x] > max_fiu:
         max_fiu = fiuk[x]
 
+print("A legtöbbet táncolt fiú(k):")
 for y in fiuk:
     if fiuk[y] == max_fiu:
         print(y)
@@ -132,7 +131,7 @@ max_lanyok = 0
 for lany in lanyok:
     if lanyok[lany] > max_lanyok:
         max_lanyok = lanyok[lany]
-
+print("\nA legtöbbet táncolt lány(ok):")
 for lany in lanyok:
     if lanyok[lany] == max_lanyok:
         print(lany)
