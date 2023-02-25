@@ -36,3 +36,19 @@ print("\n4.Feladat")
 meg a minta szerint a szám abszolút értékéhez legközelebb eső nála nagyobb öttel
 osztható számot!
 """
+while bekert_szam % 5 != 0:
+    bekert_szam += 1
+
+print(f'A szám abszolút értékéhez legközelebb eső, nála nagyobb öttel osztható szám a {bekert_szam}')
+
+
+print("\n5.Feladat")
+"""
+5. A minta szerint jelenítse meg a szám középső számjegyét / számjegyeit!
+"""
+szam = str(bekert_szam)
+
+if len(szam) == 4:
+    print(f"A középső számjegy(ek): {szam[1:3]}")
+else:
+    print(f'A középső számjegy(ek): {szam[1]}')
