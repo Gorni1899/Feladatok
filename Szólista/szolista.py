@@ -37,4 +37,12 @@ for szo in tarolt_szavak2:
         legrovidebb_szavak = szo
 print("A legrövidebb szó:", legrovidebb_szavak)
 
+print("\n4.Feladat")
+"""
+4. Írja ki a leghosszabb szót - amennyiben több ilyen is létezik, akkor az egyik
+leghosszabb szót - úgy, hogy az első és utolsó betűje a helyén marad, a szó
+belsejében lévő betűk azonban fordított sorrendben szerepelnek! Például zsiráf >
+zárisfs
+"""
+
 
