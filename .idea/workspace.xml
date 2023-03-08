@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a7b3a90f-6a62-44a1-8d89-1003d525e953" name="Changes" comment="Első három feladat megvan.">
+    <list default="true" id="a7b3a90f-6a62-44a1-8d89-1003d525e953" name="Changes" comment="4.Feladat következik">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -37,7 +37,7 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;
   }
 }</component>
-  <component name="RunManager" selected="Python.Számvizsgáló">
+  <component name="RunManager" selected="Python.latin-tancok (1)">
     <configuration name="Benzinkut" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Feladatok" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -80,6 +80,27 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="latin-tancok (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Feladatok" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Latin-Tancok" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Latin-Tancok/latin-tancok.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="latin-tancok" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <module name="Feladatok" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -101,8 +122,31 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="szolista" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Feladatok" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Szólista" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Szólista/szolista.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.latin-tancok (1)" />
+        <item itemvalue="Python.szolista" />
         <item itemvalue="Python.Számvizsgáló" />
         <item itemvalue="Python.Benzinkut" />
       </list>
@@ -138,14 +182,36 @@
       <option name="project" value="LOCAL" />
       <updated>1677256943185</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Első három feladat megvan.">
+      <created>1677774832605</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1677774832605</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Első három feladat megvan.">
+      <created>1677774843285</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1677774843285</updated>
+    </task>
+    <task id="LOCAL-00006" summary="4.Feladat következik">
+      <created>1677775052904</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1677775052904</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="1.feladat" />
     <MESSAGE value="Készen vagyok az 5 feladattal.&#10;A max tankolast kell még megoldanom." />
     <MESSAGE value="Első három feladat megvan." />
-    <option name="LAST_COMMIT_MESSAGE" value="Első három feladat megvan." />
+    <MESSAGE value="4.Feladat következik" />
+    <option name="LAST_COMMIT_MESSAGE" value="4.Feladat következik" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
