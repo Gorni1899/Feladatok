@@ -58,3 +58,26 @@ for index, kosar in enumerate(vasarlasok):
             utolso = index
 print(f'Az utolsó vásárlás sorszáma: {utolso + 1}')
 print(f'{szamlalo} vásárlás során vettek belőle.')
+
+print("6.Feladat")
+
+def ertek(db):
+    if db == 1:
+        return 500
+    elif db == 2:
+        return 500 + 450
+    else:
+        return 500 + 450 +(db-2) *400
+print(f'2 darab vételekor fizetendő: {ertek(2)}')
+
+print('\n7.Feladat')
+for arucikk in vasarlasok[sorszam-1]:
+    print(f'{vasarlasok[sorszam-1][arucikk]} {arucikk}')
+
+print("\n8.Feladat")
+with open("osszeg.txt", "w", encoding="utf-8") as osszeg:
+    for index, kosar in enumerate(vasarlasok):
+        fizetendo = 0
+        for arucikk in kosar:
+            fizetendo += ertek(kosar[arucikk])
+        print(f'{index + 1}: {fizetendo}', file=osszeg)
