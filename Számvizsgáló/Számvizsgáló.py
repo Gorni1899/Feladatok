@@ -1,54 +1,49 @@
-"""
-Készíts egy programot, amely a felhasználó által megadott számot illetve annak számjegyeit
-vizsgálja! A program forráskódját mentse “szamvizsgalo” néven!
-"""
-
 print("1.Feladat")
 """
 Kérjen be a felhasználótól a [-1000; 1000] intervallumba eső egész számot!
-Az adatbekérés mindaddig folytatódjon, amíg a megadott szám az intervallumba nem esik! (Feltételezheti,
-hogy a felhasználó egész számot ad meg.)
 """
-intervallum = [-1000, 1000]
+bekert_szam = int(input("Adj meg egy a [-1000;1000] tartományba eső egész számot! "))
 
-bekert_szam = int(input("Adj meg egy számot -1000 és 1000 között: "))
+if bekert_szam > 1000:
+    print("A bekért szám nagyobb mint 1000")
+    quit()
 
-while bekert_szam < intervallum[0] or bekert_szam > intervallum[1]:
-    bekert_szam = int(input("Adj meg egy számot -1000 és 1000 között: "))
+elif bekert_szam < -1000:
+    print("A bekért szám kissebb mint -1000")
+    quit()
+aktualis_szam = 0
+while bekert_szam > -1000 and bekert_szam < 1000:
+    aktualis_szam = bekert_szam
+    bekert_szam = int(input("Adj meg egy a [-1000;1000] tartományba eső egész számot! "))
+
+print(aktualis_szam)
 
 print("\n2.Feladat")
 """
-Vizsgálja meg, és a mintának megfelelően jelezze, hogy a megadott szám páros
-vagy páratlan és osztható-e hárommal!
+2. Vizsgálja meg, és jelezze, hogy a megadott szám páros vagy páratlan és osztható-e hárommal!
 """
-if bekert_szam % 2 == 0:
-    print("A megadott szám páros.")
-else:
-    print("A megadott szám páratlan.")
+if aktualis_szam % 2 == 0 and aktualis_szam % 3 == 0:
+    print("A megadott szám páros és osztható hárommal.")
+
+elif aktualis_szam % 2 == 0 and aktualis_szam % 3 != 0:
+    print("A megadott szám páros és nem osztható hárommal.")
+
+
+elif aktualis_szam % 2 != 0 and aktualis_szam % 3 == 0:
+    print("A megadott szám páratlan és osztható hárommal.")
+
+elif aktualis_szam % 2 != 0 and aktualis_szam % 3 != 0:
+    print("A megadott szám páratlan és nem osztható hárommal.")
 
 print("\n3.Feladat")
-
-print(f'A szám abszolút értéke {abs(bekert_szam)}')
+print(f"A szám abszolút értéke {abs(aktualis_szam)} ")
 
 print("\n4.Feladat")
-"""
-4. Amennyiben a szám osztható öttel, jelezze ezt a felhasználónak, ha nem, akkor adja
-meg a minta szerint a szám abszolút értékéhez legközelebb eső nála nagyobb öttel
-osztható számot!
-"""
-while bekert_szam % 5 != 0:
-    bekert_szam += 1
-
-print(f'A szám abszolút értékéhez legközelebb eső, nála nagyobb öttel osztható szám a {bekert_szam}')
-
+while aktualis_szam % 5 != 0:
+    aktualis_szam += 1
+print(f"A szám abszolút értékéhez legközelebb eső, nála nagyobb öttel osztható szám a {aktualis_szam}")
 
 print("\n5.Feladat")
-"""
-5. A minta szerint jelenítse meg a szám középső számjegyét / számjegyeit!
-"""
-szam = str(bekert_szam)
-
-if len(szam) == 4:
-    print(f"A középső számjegy(ek): {szam[1:3]}")
-else:
-    print(f'A középső számjegy(ek): {szam[1]}')
+# A középső számjegy(ek)
+szamsztring = str(aktualis_szam)
+print(f'A középső számjegy(ek) {szamsztring[1]}')
