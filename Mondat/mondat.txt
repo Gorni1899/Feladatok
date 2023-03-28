@@ -1,0 +1,24 @@
+A felhasználó egy mondatot ad meg, aminek az elemzését kell a programnak elvégeznie.
+
+A mondat írásjelként csak vesszőt, pontosvesszőt, pontot, kérdőjelet vagy felkiáltójelet
+tartalmaz. A mondat szavai ékezet nélküli betűkből állnak. A mondat végén pont, kérdőjel
+vagy felkiáltójel áll.
+
+A program forráskódját mentse “mondat” néven! A program megírásakor a felhasználó által
+megadott adatok helyességét, érvényességét nem kell ellenőriznie, és feltételezheti, hogy a
+rendelkezésre álló adatok a leírtaknak megfelelnek.
+
+1. Olvassa be a mintának megfelelően, és tárolja el, a felhasználó által megadott
+mondatot!
+
+2. A mintának megfelelően adja meg a mondatban előforduló betűk számát!
+
+3. A mintának megfelelően adja meg a mondatban előforduló szavak számát!
+
+4. A mintának megfelelően adja meg a mondatban előforduló magánhangzók számát!
+
+5. A képernyőre a mintának megfelelően írja ki a leghosszabb szót, és annak hosszát!
+
+6. Kérjen be a felhasználótól egy szót! Vizsgálja meg, hogy a megadott szó előfordul-e
+a mondatban. Ennek eredményéről a mintának megfelelően adjon tájékoztatást!
+(Ebben a részfeladatban a kis- és nagybetűk között ne tegyen különbséget!)
