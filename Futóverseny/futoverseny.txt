@@ -1,0 +1,34 @@
+Olivér teljesített egy utcai futóversenyt ugyan, de mivel nem készült fel a versenyre
+megfelelően, a távot nem csak futva, de néha gyalogolva teljesítette, sőt olyan is előfordult,
+hogy teljesen meg is állt verseny közben.
+Az egyes szakaszokat feljegyezetük egy kód segítségével. A kód elején mindig betű áll:
+F (futott) vagy NF (nem futott, tehát tehát gyalogolt vagy megállt). A betü(k) után egy
+számérték következik, amely egész vagy tizedes tört, ez adja meg az adott szakaszon
+megtett távolságot.
+
+Például:
+F21.3 futott 21.3 km-t
+NF0.9 gyalogolt 0.9 km-t
+NF0 megállt
+
+A program forráskódját mentse “futoverseny” néven! A program megírásakor a felhasználó
+által megadott adatok helyességét, érvényességét nem kell ellenőriznie, és feltételezheti,
+hogy a rendelkezésre álló adatok a leírtaknak megfelelnek.
+
+1. Tárolja el az alábbi versenyszakaszokat a megadott sorrendben:
+'F5.3', 'NF1', 'F3.2', 'NF0.6', 'NF0', 'F2.1', 'NF2'
+
+2. A mintának megfelelően adja meg, hogy hány km volt a versenytáv?
+
+3. A mintának megfelelően adja meg, hogyan ért be a célba Olivér, futva vagy
+gyalogolva?
+
+4. Vizsgálja meg, és a mintának megfelelően jelezze, hogy hány alkalommal állt meg a
+Olivér a verseny közben.
+
+5. A mintának megfelelően adja meg, hogy a verseny alatt hány alkalommal szakította
+meg a futását! (Ha futott majd gyalogolt és megállt, majd ismét futni kezdett, ez csak
+egy megszakításnak számít!)
+
+6. Vizsgálja meg, és a mintának megfelelően jelezze, hogy volt-e olyan alkalom, hogy
+gyaloglás után közvetlenül megállt.
