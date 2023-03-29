@@ -1,0 +1,24 @@
+Készítsen egy programot, amelyben a felhasználónak 1 és az általa megadott felső
+határéték közötti számot kell kitalálnia!
+
+A program forráskódját mentse “melyik_szam” néven! A program megírásakor a felhasználó
+által megadott adatok helyességét, érvényességét nem kell ellenőriznie, és feltételezheti,
+hogy a rendelkezésre álló adatok a leírtaknak megfelelnek.
+
+1. Olvassa be a mintának megfelelően, és tárolja el, a felső határértéket!
+
+2. A program generáljon egy véletlenszámot 1 és a felhasználó által megadott felső
+határérték között! A véletlenszám kerüljön eltárolásra!
+
+3. A program kérjen be a felhasználótól egy tippet mindaddig, amíg az meg nem
+egyezik a generált véletlenszámmal!
+
+4. Helytelen tipp esetén a program jelenítse meg a mintának megfelelően azt is, hogy
+tippnél kisebb vagy nagyobb-e a kitalálandó szám!
+
+5. A program tartsa nyilván a próbálkozások számát, és erről a mintának megfelelően
+tájékoztassa a felhasználót!
+
+6. A felhasználónak a mintának megfelelően legyen lehetősége -1 érték megadásával
+kilépnie a programból! Ekkor a program írja ki a képrenyőre, melyik számot kellett
+volna kitalálni!
