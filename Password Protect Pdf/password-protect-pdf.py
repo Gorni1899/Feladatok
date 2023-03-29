@@ -16,7 +16,7 @@ def seurce_pdf(file, password):
     print(f"encrypted_{file} Created...")
 
 if __name__ == "main":
-    file = "test.pdf"
+    file = "sebeszet.pdf"
     password = "Gorni1899"
     seurce_pdf(file, password)
 
