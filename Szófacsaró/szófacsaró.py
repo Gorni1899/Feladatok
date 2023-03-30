@@ -32,20 +32,6 @@ print("a, Megadhatom a szó maszkját, amelyben a magánhabgzók helyén csillag
 
 valasztas = input("Milyen formában segítsek? (a/b) ")
 
-if valasztas == 'a':
-    for index, ertek in enumerate(veletlen_szo):
-        if index % 2 == 0:
-            print("*", end="")
-        else:
-            print(ertek, end="")
-
-
-
-
-tipp = input("\nAdd meg a tipped: ")
-
-if tipp == veletlen_szo:
-    print("Gratulálok, eltaláltad!")
-else:
-    print(f"Sajnálom nem talált! A szó a {veletlen_szo} lett volna.")
-
+"""
+Ennél a feladatnál a b opciót nem értem még.
+"""
