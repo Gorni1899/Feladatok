@@ -35,3 +35,15 @@ valasztas = input("Milyen formában segítsek? (a/b) ")
 """
 Ennél a feladatnál a b opciót nem értem még.
 """
+
+
+
+if valasztas == 'a':
+    for index, ertek in enumerate(veletlen_szo):
+        if index % 2 == 0:
+            print("*", end="")
+        else:
+            print(ertek, end="")
+
+else:
+    pass
