@@ -36,8 +36,6 @@ valasztas = input("Milyen formában segítsek? (a/b) ")
 Ennél a feladatnál a b opciót nem értem még.
 """
 
-
-
 if valasztas == 'a':
     for index, ertek in enumerate(veletlen_szo):
         if index % 2 == 0:
@@ -46,4 +44,21 @@ if valasztas == 'a':
             print(ertek, end="")
 
 else:
-    pass
+    # veletlen szo nevű változóban tárolt sztring karaktereinek indexét
+    # állítjuk elő véletlen sorrendben, és ezeket eltároljuk egy listában
+    kevert_szo = []
+    while len(kevert_szo) != len(veletlen_szo):
+        veletlen_index = random.randint(0, len(veletlen_szo)-1)
+        if veletlen_index not in kevert_szo:
+            kevert_szo.append(veletlen_index)
+    # a véletlenszerű indexsorrendnek megfelelően írjuk ki a sztring karaktereit
+    for veletlen_index in kevert_szo:
+        print(veletlen_szo[veletlen_index], end="")
+
+tipp = input("\nAdd meg a tipped: ")
+
+if tipp == veletlen_szo:
+    print("Gratulálok, eltaláltad!")
+
+else:
+    print(f"Sajnos nem talált, a keresett szó a(z) {veletlen_szo} lett volna.")
