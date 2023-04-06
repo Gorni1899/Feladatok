@@ -9,10 +9,11 @@ with open("penztar.txt", "r", encoding="utf-8") as file:
             vasarlasok.append(kosar)
             kosar = {}
         # Feltöltjük a kosarakat termékekkel
-        if termekek.strip() not in kosar:
-            kosar[termekek.strip()] = 1
         else:
-            kosar[termekek.strip()] += 1
+            if termekek.strip() not in kosar:
+                kosar[termekek.strip()] = 1
+            else:
+                kosar[termekek.strip()] += 1
 
 print(vasarlasok)
 
@@ -22,5 +23,10 @@ print(f"A pénztárnál a mai napon {len(vasarlasok)} alkalommal fizettek.")
 
 print("\n3.Feladat")
 
-for darabszam in vasarlasok[0]:
-    print(f"Az első vásárló {vasarlasok[0][darabszam]} darab árucikket vásárolt.")
+szamlalo = 0
+for darabszam in vasarlasok[1]:
+    szamlalo += vasarlasok[1][darabszam]
+
+print(szamlalo)
+
+print("4.Feladat")
