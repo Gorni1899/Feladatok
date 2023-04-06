@@ -19,3 +19,8 @@ print(vasarlasok)
 print("\n2.Feladat")
 
 print(f"A pénztárnál a mai napon {len(vasarlasok)} alkalommal fizettek.")
+
+print("\n3.Feladat")
+
+for darabszam in vasarlasok[0]:
+    print(f"Az első vásárló {vasarlasok[0][darabszam]} darab árucikket vásárolt.")
