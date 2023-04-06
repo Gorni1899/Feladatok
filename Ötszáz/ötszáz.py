@@ -15,3 +15,7 @@ with open("penztar.txt", "r", encoding="utf-8") as file:
             kosar[termekek.strip()] += 1
 
 print(vasarlasok)
+
+print("\n2.Feladat")
+
+print(f"A pénztárnál a mai napon {len(vasarlasok)} alkalommal fizettek.")
