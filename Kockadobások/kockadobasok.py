@@ -29,7 +29,7 @@ folyamán összesen hány mezőt haladt előre! Az átlagértéket két tizedesj
 pontossággal adja meg!
 """
 
-print(f"A játékos átlagosan {sum(tarolt_dobasok) / dobasok_szama:2f} mezőt, összesen {sum(tarolt_dobasok)} mezőt haladt előre.")
+print(f"A játékos átlagosan {sum(tarolt_dobasok) / dobasok_szama:.2f} mezőt, összesen {sum(tarolt_dobasok)} mezőt haladt előre.")
 
 print("\n4.Feladat")
 """
