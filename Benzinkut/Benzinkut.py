@@ -19,8 +19,8 @@ adatbekérés mindaddig folytatódjon, amíg a felhasználó csupán ENTER-t nem
 diesel_tarolas = []
 tarolt_tankolasok = []
 tankolas = input("Adja meg az üzemanyag típusát és mennyiségét! (pl. B4 vagy D23) ")
-
-while tankolas != "":
+max_tankolas = 201
+while tankolas != "" and int(tankolas[1:]) < max_tankolas:
         if tankolas[0] == "D" and tankolas[1:] != "0":
                 diesel_tarolas.append(int(tankolas[1:]))
         if tankolas[1:] != "0":
