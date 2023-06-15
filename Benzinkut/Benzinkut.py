@@ -4,7 +4,7 @@ Benzinkút
 két fajta üzemanyagot árulnak: benzint (B) és dieselt (D). Az egy alkalommal eladott
 üzemanyag mennyisége 1-200 literig terjedhet. Amennyiben a felhasználó által megadott
 üzemanyag mennyiségnél 0l szerepel, az ne számítson vásárlásnak, és ne kerüljön
-rögzítésre!
+rögzítésre.
 
 Például:
 20l benzin rögzítése: B20
